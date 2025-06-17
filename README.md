@@ -9,7 +9,7 @@ A simple FastAPI web service with a `/hello` endpoint and Swagger documentation.
 pip install fastapi uvicorn
 uvicorn app:app --reload
 
-Visit: http://localhost:8000/hello?name=Esraa
+Visit: http://localhost:8000/hello?name=Essraa Hassanin
 
 ### In Docker
 
