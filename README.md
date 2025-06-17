@@ -16,9 +16,13 @@ Visit: http://localhost:8000/hello?name=Essraa%20Hassanin
 docker build -t fastapi-demo .
 docker run -p 8000:8000 fastapi-demo
 
-### Output
+### Sample Output
+Default response:
+{ "message": "Hello, there!" }
 
-{ "message": "Hello, FastAPI!" }
+Custom name response:
+{ "message": "Hello, Essraa Hassanin!" }
+
 
 ### Docs
 FastAPI auto-generates API docs:
